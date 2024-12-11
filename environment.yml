@@ -1,0 +1,20 @@
+name: info498b-final
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - spacy
+  - transformers
+  - datasets
+  - evaluate
+  - scikit-learn
+  - sentence-transformers
+  - pip
+  - pip:
+    - torch
+    - accelerate
